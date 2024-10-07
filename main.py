@@ -3,7 +3,7 @@
 # Function to calculate factorial
 def factorial(n):
     if n < 0:
-        return "Factorial is not defined for negative numbers."
+        return "Factorial is not for -ve Numbers."
     elif n == 0 or n == 1:
         return 1
     else:
@@ -16,7 +16,7 @@ def factorial(n):
 def main():
     try:
         # Ask the user for a number
-        number = int(input("Enter a number to calculate its factorial: "))
+        number = int(input("Enter a number to find factorial: "))
 
         # Call the factorial function
         fact = factorial(number)
@@ -24,7 +24,7 @@ def main():
         # Output the result
         print(f"The factorial of {number} is: {fact}")
     except ValueError:
-        print("Please enter a valid integer.")
+        print("Please enter a valid integer.____")
 
 # Run the program
 if __name__ == "__main__":
