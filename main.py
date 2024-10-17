@@ -1,5 +1,4 @@
 # A simple Python program that calculates the factorial of a number
-
 # Function to calculate factorial
 def factorial(n):
     if n < 0:
